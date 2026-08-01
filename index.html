@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Personalized Course Eligibility Checker</h1>
+
+    <form id="eligibilityForm">
+
+        <label for="name">Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="roll">Roll Number</label>
+        <input type="text" id="roll" placeholder="Example: ITB07">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age">
+
+        <label for="attendance">Attendance Percentage</label>
+        <input type="number" id="attendance"
+               placeholder="Enter attendance %">
+
+        <label for="marks">JavaScript Test Mark</label>
+        <input type="number" id="marks"
+               placeholder="Enter marks out of 100">
+
+        <button type="submit">Check Eligibility</button>
+
+    </form>
+
+    <div id="result"></div>
+
+    <div class="topics">
+        <h2>Preferred Learning Topics</h2>
+        <ul id="topicList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
